@@ -1,6 +1,6 @@
 using System;
 
-namespace OrdemDecrescente
+namespace ImprimeNumeros
 {
     public class Menu
     {
@@ -8,16 +8,15 @@ namespace OrdemDecrescente
         {
             Console.Clear();
 
-            Numeros();   
+            Numeros();
         }
 
         public static void Numeros()
         {
-            for(var i = 100; i > 0; i--)
+            for(var i = 1; i <= 2000; i++)
             {
                 Console.WriteLine(i);
             }
-
         }
     }
 }

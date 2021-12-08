@@ -1,8 +1,8 @@
-﻿// Escreva um programa que exiba os números de 1 a 100 na tela em ordem decrescente. 
+﻿//  Faça um programa que exiba os números de 1 até 2000. 
 
 using System;
 
-namespace OrdemDecrescente
+namespace ImprimeNumeros
 {
     class Program
     {
